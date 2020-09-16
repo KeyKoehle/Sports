@@ -15,8 +15,6 @@ public class Datenbank {
         String sql = "select * from alle_spiele";
         ResultSet rs = myStatement.executeQuery(sql);
 
-        // while(rs.next())
-           //         System.out.println(rs.getString("Verein_Heim"));
     }
 
     public void einlesen (Date Datum, String Verein_Heim, String Verein_Auswaerts, int Tore_Heim, int Tore_Auswaerts, int Spieltag, String Saison, int Tore_Heim_Halbzeit, int Tore_Auswaerts_Halbzeit, String Land, String Liga ) throws SQLException {
