@@ -24,6 +24,10 @@ public class Datenbank {
         String sql = "INSERT INTO alle_spiele (datum, Verein_Heim, Verein_Auswaerts, Tore_Heim, Tore_Auswaerts, Spieltag, Saison, Tore_Heim_Halbzeit, Tore_Auswaerts_Halbzeit, Land, Liga) " +
                      "VALUES ('"+Datum+"','"+Verein_Heim+"','"+Verein_Auswaerts+"','"+Tore_Heim+"','"+Tore_Auswaerts+"','"+Spieltag+"','"+Saison+"','"+Tore_Heim_Halbzeit+"','"+Tore_Auswaerts_Halbzeit+"','"+Land+"','"+Liga+"')";
         myStatement.execute(sql);
+    }
+
+    public void test_ormLite (){
 
     }
+
 }

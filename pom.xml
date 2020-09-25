@@ -7,6 +7,13 @@
     <groupId>groupId</groupId>
     <artifactId>Sports</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <dependencies><!-- https://mvnrepository.com/artifact/com.j256.ormlite/ormlite-jdbc -->
+        <dependency>
+            <groupId>com.j256.ormlite</groupId>
+            <artifactId>ormlite-jdbc</artifactId>
+            <version>5.1</version>
+        </dependency>
+    </dependencies>
 
-    
+
 </project>
